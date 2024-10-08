@@ -1,0 +1,181 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex a{
+  color: #222; 
+  text-decoration: none;
+  transition: all .35s ease;
+  line-height: 3;
+}
+
+
+.nav-top{
+  background-color: #223a66;
+}
+
+.banner{
+  background-image: url('./images/slider-bg-1.jpg'); 
+  min-height: 550px;
+}
+
+
+/* @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+html {
+  overflow-x: hidden;
+} */
+
+  @media (max-width: 480px) {
+    .banner .block h1 {
+      font-size: 28px;
+      line-height: 40px;
+    }
+    .banner {
+      min-height: 450px;
+      background: #fff;
+    }
+    .col-12{
+      width: 50%;
+      margin-right: 10%;
+    }
+    .card{
+      margin-left: 5%;
+    }
+  }
+
+
+ 
+
+
+  .award-img{
+    height: 120px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #eff0f3;
+  }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .h1,h2,h3,h4,h5,p{
+    width: 100%;
+  }
+  .btn{
+    width: 50%;
+  }
+
+  .myboxdown{
+    margin-top:10px;
+  }
+
+  .bsb-btn-2xl{
+    width: 100%;
+  }
+  .card-wrapper{
+    margin: 30%;
+    
+  }
+  .logos{
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .banner{
+    margin-bottom: 50px;
+  }
+
+  .card{
+    margin-left: 5%;
+  }
+
+  .slide-content{
+  
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .slide-content {
+      flex: 0 0 100%;
+  }
+}
+
+
+@media only screen and (max-width: 2560px){
+.appoinment{
+  margin-bottom: 100px;
+}
+}
+
+
+
+.container {
+  overflow: hidden;
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    .logos {
+      width: 100%;
+      display: inline-block;
+      margin: 0px 0;
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s 
+          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  h2, .h2 {
+    font-size: 1.3rem;
+    line-height: 36px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
